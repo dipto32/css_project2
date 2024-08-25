@@ -591,3 +591,111 @@ body{
 
 }
 
+* Media Queries for Phone */
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .logo a {
+        font-size: 24px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .nav-end button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .nav-end a {
+        font-size: 18px;
+    }
+
+    .inside-content {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .inside-content h1 {
+        font-size: 18px;
+    }
+
+    .inside-content input {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    .submit {
+        font-size: 14px;
+    }
+
+    .why {
+        position: static;
+        margin: 20px auto;
+        width: 90%;
+        background-color: black;
+    }
+
+    .yellow {
+        width: 100%;
+        height: 200px;
+    }
+
+    .features {
+        width: 100%;
+    }
+
+    .features h1 {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .f-content {
+        display: block;
+    }
+
+    .f-card {
+        margin: 10px 0;
+    }
+
+    .f-card h3 {
+        font-size: 18px;
+    }
+
+    .f-card p {
+        font-size: 14px;
+    }
+
+    .f-btn button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .f-container {
+        padding: 20px;
+    }
+
+    .ff-container {
+        grid-template-columns: 1fr;
+    }
+
+    .container-box {
+        margin-bottom
+
+
+
+
